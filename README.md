@@ -1,24 +1,8 @@
-# chess-exercises-organizer
+# Chess exercises organizer
 
-## Project setup
-```
-yarn install
-```
+Choose an exercise from your chess pgn file and train yourself against the device (at its maximum strength).
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Usage [WIP]
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* First, you must set up the engine path in the options page : it must be an UCI-compliant engine (i.e Stockfish).
+* Then when starting a game, you will be invited to choose a Pgn file, the game and the players configuration, as well as the time configuration.

@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MainPage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+require('@loloof64/chessboard-component/dist');
+import MainPage from "./components/MainPage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MainPage,
+  },
+};
 </script>
 
 <style>
