@@ -25,11 +25,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: get version
-        # disable command workflow processing
+      - name: disable command workflow processing
         run: echo "::stop-commands::`echo -n ${{ github.token }} | sha256sum | head -c 64`"
+      - name: get version
         run: echo ::set-env name=PACKAGE_VERSION::$(node -p "require('./package.json').version")
-        # enable workflow command processing
+      - name: enable workflow command processing
         run: echo "::`echo -n ${{ github.token }} | sha256sum | head -c 64`::"
       - name: create release
         id: create_release
