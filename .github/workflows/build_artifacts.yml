@@ -48,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-latest, ubuntu-16.04, windows-latest]
+        platform: [macos-latest, ubuntu-18.04, windows-latest]
 
     runs-on: ${{ matrix.platform }}
     steps:
@@ -64,7 +64,7 @@ jobs:
     - name: install tauri bundler
       run: cargo install tauri-bundler --force
     - name: install webkit2gtk (ubuntu only)
-      if: matrix.platform == 'ubuntu-16.04'
+      if: matrix.platform == 'ubuntu-18.04'
       run: |
         sudo apt-get update
         sudo apt-get install -y webkit2gtk-4.0
