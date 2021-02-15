@@ -28,9 +28,9 @@ jobs:
       - name: get version
         run: |
           # disable command workflow processing
-          run: echo "::stop-commands::`echo -n ${{ github.token }} | sha256sum | head -c 64`"
+          echo "::stop-commands::`echo -n ${{ github.token }} | sha256sum | head -c 64`"
         
-          run: echo ::set-env name=PACKAGE_VERSION::$(node -p "require('./package.json').version")
+          echo ::set-env name=PACKAGE_VERSION::$(node -p "require('./package.json').version")
         
           # enable workflow command processing
           echo "::`echo -n ${{ github.token }} | sha256sum | head -c 64`::"
