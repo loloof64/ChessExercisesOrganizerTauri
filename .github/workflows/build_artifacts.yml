@@ -13,9 +13,7 @@ jobs:
   create-release:
     strategy:
         fail-fast: true
-        matrix:
-          platform: [macos-latest, ubuntu-16.04, windows-latest]
-    runs-on:  ${{ matrix.platform }}
+    runs-on:  ubuntu-latest
     outputs:
       RELEASE_UPLOAD_ID: ${{ steps.create_release.outputs.id }}
 
