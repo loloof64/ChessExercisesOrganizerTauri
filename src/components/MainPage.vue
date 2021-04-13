@@ -18,6 +18,7 @@
         coordinates_visible="true"
     ></loloof64-chessboard>
     <button @click="startGame">New game</button>
+    <button @click="stopGame">Stop game</button>
 </template>
 
 <script>
@@ -31,7 +32,11 @@ export default {
             if (chessboard.value != null) chessboard.value.newGame();
         }
 
-        return {chessboard, startGame};
+        const stopGame = () => {
+            if (chessboard.value != null) chessboard.value.stop();
+        }
+
+        return {chessboard, startGame, stopGame};
     }
 }
 </script>
