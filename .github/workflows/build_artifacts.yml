@@ -34,7 +34,7 @@ jobs:
           tag_name: app-v${{ env.PACKAGE_VERSION }}
           release_name: "Desktop app v${{ env.PACKAGE_VERSION }}"
           body: "New release."
-          draft: true
+          draft: false
           prerelease: false
   build-tauri:
     needs: create-release
