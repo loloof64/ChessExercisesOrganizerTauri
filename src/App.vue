@@ -3,7 +3,6 @@
 </template>
 
 <script>
-require('@loloof64/chessboard-component/dist');
 import MainPage from "./components/MainPage.vue";
 
 export default {
