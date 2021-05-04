@@ -1,7 +1,7 @@
 {
   "package": {
     "productName": "Chess Exercises Organizer",
-    "version": "0.1.4"
+    "version": "0.1.6"
   },
   "build": {
     "distDir": "../public/assets",
@@ -13,7 +13,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.loloof64.chessexercisesorganizer",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",

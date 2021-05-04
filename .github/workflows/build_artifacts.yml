@@ -35,7 +35,7 @@ jobs:
         with:
           tag_name: app-v${{ env.PACKAGE_VERSION }}
           release_name: "Desktop app v${{ env.PACKAGE_VERSION }}"
-          body: v${{ env.RELEASE_MESSAGE }}
+          body: ${{ env.RELEASE_MESSAGE }}
           draft: false
           prerelease: false
   build-tauri:
@@ -71,5 +71,3 @@ jobs:
       with:
         releaseId: ${{ needs.create-release.outputs.RELEASE_UPLOAD_ID }}
         configPath: src-tauri/tauri.conf.json
-
-        

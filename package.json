@@ -1,6 +1,6 @@
 {
   "name": "chess-exercises-organizer",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": true,
   "release_message": "Changed the window size and icons.",
   "scripts": {
