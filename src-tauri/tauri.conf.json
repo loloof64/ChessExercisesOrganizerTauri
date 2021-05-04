@@ -1,7 +1,7 @@
 {
   "package": {
-    "productName": "Chess Exercises Organizer",
-    "version": "0.1.6"
+    "productName": "ChessExercisesOrganizer",
+    "version": "0.1.8"
   },
   "build": {
     "distDir": "../public/assets",
