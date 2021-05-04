@@ -1,8 +1,8 @@
 {
   "name": "chess-exercises-organizer",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": true,
-  "release_message": "Better layout and buttons for main page.",
+  "release_message": "Changed the window size and icons.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@loloof64/chessboard-component": "^0.16.4",
+    "@tauri-apps/api": "^1.0.0-beta-rc.3",
+    "@tauri-apps/cli": "^1.0.0-beta-rc.4",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },

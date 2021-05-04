@@ -19,7 +19,7 @@
       class="chessboard"
       ref="chessboard"
       size="400"
-      left="250"
+      left="40"
       background="crimson"
       coordinates_color="yellow"
       white_cell_color="navajowhite"
