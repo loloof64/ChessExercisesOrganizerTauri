@@ -15,4 +15,4 @@ Choose an exercise from your chess pgn file and train yourself against the devic
 
 # Credits
 
-Icon have been downloaded from https://www.flaticon.com/free-icon/chess_178148, and designed by Flat Icons.
+Icon have been downloaded from Icon8 : https://icons8.com//icons/set/chessboard.
