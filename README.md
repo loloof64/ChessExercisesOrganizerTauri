@@ -12,3 +12,7 @@ Choose an exercise from your chess pgn file and train yourself against the devic
 1. Setup configuration for your OS : https://tauri.studio/en/docs/getting-started/intro
 2. `npm install` or `yarn` in order to install dependencies locally (first time).
 4. `npm run serve` or `yarn serve` for a dev environment.
+
+# Credits
+
+Icon have been downloaded from https://www.flaticon.com/free-icon/chess_178148, and designed by Flat Icons.
